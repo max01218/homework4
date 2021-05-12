@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
 import $ from 'jquery';
 
 class UserGithub extends React.Component {
@@ -43,10 +42,7 @@ class UserGithub extends React.Component {
         );
     }
 }
-ReactDOM.render(
-    <UserGithub source="https://api.github.com/users/max01218" />,
-    document.getElementById('root')
-);
+
 
 
 export default UserGithub;
